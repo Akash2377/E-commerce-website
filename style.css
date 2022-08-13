@@ -1,0 +1,183 @@
+body {
+  background-color: azure;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2874f0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+nav > div > a {
+  color: white;
+  text-decoration: none;
+}
+nav > div > a:hover {
+  color: black;
+}
+#logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  margin-top: 8px;
+  border-radius: 50px;
+}
+#ser {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#ser > input {
+  width: 500px;
+  border: none;
+  text-align: center;
+}
+#ser > div {
+  background-color: white;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+nav > div:first-child {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+nav > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+
+  padding: 10px;
+  border-radius: 20px;
+}
+div > a {
+  display: flex;
+  align-items: center;
+}
+#womensPage {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#womensPage > div {
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(219, 214, 214, 0.685);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#womensPage > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#womensPage > div > img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+#price {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+#price > h4:last-child {
+  text-decoration: line-through;
+}
+#addcart:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+#addcart {
+  background-color: #2874f0;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+#parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  width: 100%;
+}
+#cartDatamain {
+  width: 65%;
+}
+#cartDatamain > div {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(224, 220, 220, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 20px 10px;
+}
+#cartDatamain > img {
+  width: 30%;
+}
+#itemsData {
+  width: 65%;
+}
+#addandminus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#addandminus > div > button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgb(224, 220, 220);
+  font-size: larger;
+  border: none;
+  border-radius: 8px;
+}
+
+#addandminus > div > span {
+  padding: 10px 20px;
+  border: 1px;
+  background-color: rgba(224, 220, 220, 0.527);
+  font-size: larger;
+}
+
+#addandminus > button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(224, 220, 220, 0.527);
+  font-size: larger;
+}
+#addandminus > div {
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#itemsData > h1,
+#itemsData > h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+#itemsData > div {
+  margin-top: 50px;
+}
+#payment {
+  position: fixed;
+  margin-left: 70%;
+}
