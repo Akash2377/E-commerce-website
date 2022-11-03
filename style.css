@@ -16,7 +16,7 @@ nav > div > a {
   text-decoration: none;
 }
 nav > div > a:hover {
-  color: black;
+  color: gray;
 }
 #logo {
   display: block;
@@ -159,7 +159,7 @@ div > a {
 }
 
 #addandminus > button {
-  padding: 10px 20px;
+  padding: 11px 21px;
   border: none;
   background-color: rgba(224, 220, 220, 0.527);
   font-size: larger;
